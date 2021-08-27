@@ -1,4 +1,4 @@
-Find the contiguous subarray within an array, A of length N which has the largest sum.
+/*Find the contiguous subarray within an array, A of length N which has the largest sum.
 
 Input Format:
 
@@ -35,7 +35,7 @@ Explanation 2:
 Approach -  try adding sum,the key thing is check whether after adding a element to existing sum that sum is bigger than the element itself or not if yes then add that element to sum
 if no then sum will be that element and process ahead.
 
-
+*/
 
 public class Solution {
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
